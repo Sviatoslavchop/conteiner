@@ -1,0 +1,22 @@
+h3:nth-child(odd) {
+    color: pink;
+}
+
+p#greycol {
+    color: grey;
+}
+
+div p:nth-child(4n + 1) {
+    color: red;
+}
+
+p:nth-child(6n + 1) {
+    color: green;
+}
+
+p.yellow:nth-last-child(7n + 1) {
+    color: yellow;
+}
+
+
+
